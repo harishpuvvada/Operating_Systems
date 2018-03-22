@@ -1,0 +1,15 @@
+steps for running :
+
+gcc server.c -o server ----> for server compilation
+
+gcc client.c -o client ----> for client compilation
+
+./server ----> run server first 
+
+./client 127.0.0.1 ----> run client with ip address (no need of port number)
+
+
+After entering lines in client window , terminate server by ctrl+c . This will show you number of lines total along with the number of digits.
+
+
+
